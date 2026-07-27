@@ -4,14 +4,11 @@
    ============================================ */
 const projectLinks = {
   puppyLovers: "https://puppyloverr.netlify.app",
-  appleClone: "https://current-apple-page.netlify.app",
-  alxReact: "https://alxreactapp.netlify.app",
+  appleClone: "https://appplepagee.netlify.app",
   bookstore: "https://bookstorewebsitee.netlify.app",
   formValidation: "https://formcreationvalidation.netlify.app",
-  weatherDashboard: "https://github.com/berhanufen/WeatherDashboard",
   todoList: "https://dynamictodolists.netlify.app",
 };
-
 document.querySelectorAll("[data-link]").forEach((el) => {
   const key = el.getAttribute("data-link");
   if (projectLinks[key]) el.setAttribute("href", projectLinks[key]);
