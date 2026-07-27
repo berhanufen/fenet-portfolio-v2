@@ -8,6 +8,7 @@ const projectLinks = {
   bookstore: "https://bookstorewebsitee.netlify.app",
   formValidation: "https://formcreationvalidation.netlify.app",
   todoList: "https://dynamictodolists.netlify.app",
+  currentApplePage: "https://currentappllepagee.netlify.app/"
 };
 document.querySelectorAll("[data-link]").forEach((el) => {
   const key = el.getAttribute("data-link");
