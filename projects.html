@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Fenet Berhanu</title>
+<meta name="description" content="Projects built by Fenet Berhanu, including Puppy Lovers and an Apple website clone." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a class="nav__brand" href="index.html">Fenet<span>&lt;/&gt;</span></a>
+    <button class="nav__toggle" aria-expanded="false" aria-label="Toggle menu">menu</button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" style="grid-template-columns:1fr; padding-bottom:20px;">
+    <div>
+      <p class="hero__eyebrow">Projects</p>
+      <h1 style="font-size:clamp(2rem,5vw,3rem);">Everything I've <span class="grad-text">shipped</span></h1>
+      <p class="hero__desc" style="max-width:60ch;">Two flagship builds, plus every project along the way — all live, all linked.</p>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="project-grid">
+
+      <a class="project-card project-card--featured" data-link="puppyLovers" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">release v1.0 · featured</span>
+        <h3>Puppy Lovers</h3>
+        <p>A responsive, image-led site for dog and puppy lovers, with a warm, adoption-friendly layout.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="project-card project-card--featured" data-link="appleClone" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">release v2.0 · featured</span>
+        <h3>Apple Website Clone</h3>
+        <p>A close, rebuilt recreation of Apple's marketing pages, focused on spacing, type, and precision.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="project-card" data-link="todoList" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">build</span>
+        <h3>Dynamic To-Do List</h3>
+        <p>A to-do list app with dynamic add, complete, and delete functionality.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">JavaScript</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="project-card" data-link="bookstore" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">build</span>
+        <h3>Bookstore</h3>
+        <p>An online bookstore interface for browsing and organizing titles.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">HTML</span><span class="chip">CSS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="project-card" data-link="formValidation" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">build</span>
+        <h3>Form Creation &amp; Validation</h3>
+        <p>A form built with client-side creation and validation logic.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">JavaScript</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+      <a class="project-card" data-link="alxReact" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">build</span>
+        <h3>ALX Front-End React Projects</h3>
+        <p>A set of front-end applications built with React as part of ALX coursework.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">React</span><span class="chip">JS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="note" style="margin-top:32px;">Links pull from one place — edit js/script.js to update any project's URL and it updates everywhere it appears.</p>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Fenet Berhanu.</span>
+  <a href="https://github.com/berhanufen" target="_blank" rel="noopener">github.com/berhanufen</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

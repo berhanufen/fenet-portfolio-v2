@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Fenet Berhanu</title>
+<meta name="description" content="Get in touch with Fenet Berhanu." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a class="nav__brand" href="index.html">Fenet<span>&lt;/&gt;</span></a>
+    <button class="nav__toggle" aria-expanded="false" aria-label="Toggle menu">menu</button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" style="grid-template-columns:1fr; padding-bottom:20px;">
+    <div>
+      <p class="hero__eyebrow">Contact</p>
+      <h1 style="font-size:clamp(2rem,5vw,3rem);">Let's <span class="grad-text">talk</span>.</h1>
+      <p class="hero__desc" style="max-width:60ch;">Open to feedback on this portfolio, collaboration, or just a hello.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" style="padding-top:0;">
+    <div class="contact-grid">
+      <div>
+        <p class="section__label">Reach me</p>
+        <ul class="contact-list">
+          <li>
+            <a href="https://github.com/berhanufen" target="_blank" rel="noopener">
+              GitHub <span>github.com/berhanufen</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:your-email@example.com">
+              Email <span>your-email@example.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="assets/Fenet_Berhanu_Resume.pdf" target="_blank" rel="noopener">
+              Resume <span>download PDF</span>
+            </a>
+          </li>
+        </ul>
+        <p class="note" style="margin-top:20px;">Replace the email above directly in contact.html — search for "your-email@example.com".</p>
+      </div>
+
+      <div>
+        <p class="section__label">Send a message</p>
+        <form class="form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div>
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit" style="align-self:flex-start;">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Fenet Berhanu.</span>
+  <a href="https://github.com/berhanufen" target="_blank" rel="noopener">github.com/berhanufen</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

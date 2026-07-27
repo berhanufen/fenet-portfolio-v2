@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fenet Berhanu — Front-End Developer</title>
+<meta name="description" content="Portfolio of Fenet Berhanu, a front-end developer and student at Hilcoe Institute of Technology." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a class="nav__brand" href="index.html">Fenet<span>&lt;/&gt;</span></a>
+    <button class="nav__toggle" aria-expanded="false" aria-label="Toggle menu">menu</button>
+    <ul class="nav__links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div>
+      <p class="hero__eyebrow">Hilcoe Institute of Technology · Student Developer</p>
+      <h1>Hi, I'm <span class="grad-text">Fenet</span></h1>
+      <p class="hero__role">Front-End Developer</p>
+      <p class="hero__desc">I build clean, responsive interfaces and turn designs into working websites — with patience, consistency, and a problem-solver's mindset.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="projects.html">View my work</a>
+        <a class="btn" href="assets/Fenet_Berhanu_Resume.pdf" target="_blank" rel="noopener">Download resume</a>
+      </div>
+      <div class="hero__social">
+        <a href="https://github.com/berhanufen" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="contact.html" aria-label="Contact">@</a>
+      </div>
+    </div>
+
+    <div class="hero__portrait">
+      <div class="hero__portrait-ring">
+        <img src="assets/fenet.jpg" alt="Portrait of Fenet Berhanu" />
+      </div>
+      <div class="hero__badge hero__badge--1">HTML</div>
+      <div class="hero__badge hero__badge--2">CSS</div>
+      <div class="hero__badge hero__badge--3">JS</div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section__head">
+      <p class="section__label">Featured work</p>
+      <h2>Two builds I'm proud of</h2>
+    </div>
+    <div class="project-grid">
+      <a class="project-card project-card--featured" data-link="puppyLovers" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">release v1.0</span>
+        <h3>Puppy Lovers</h3>
+        <p>A playful, responsive site for people who can't scroll past a good dog.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+      <a class="project-card project-card--featured" data-link="appleClone" href="#" target="_blank" rel="noopener">
+        <span class="project-card__tag">release v2.0</span>
+        <h3>Apple Website Clone</h3>
+        <p>A pixel-conscious recreation of Apple's product marketing pages.</p>
+        <div class="project-card__meta">
+          <div class="project-card__stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span></div>
+          <span class="project-card__arrow">↗</span>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Fenet Berhanu.</span>
+  <a href="https://github.com/berhanufen" target="_blank" rel="noopener">github.com/berhanufen</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
