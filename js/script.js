@@ -10,10 +10,7 @@ const projectLinks = {
   todoList: "https://dynamictodolists.netlify.app",
   "Current-Apple-Page": "https://currentappllepagee.netlify.app/"
 };
-document.querySelectorAll("[data-link]").forEach((el) => {
-  const key = el.getAttribute("data-link");
-  if (projectLinks[key]) el.setAttribute("href", projectLinks[key]);
-});
+document.querySelectorAll("[data-link]").forEach((el) => { const key = el.getAttribute("data-link"); if (projectLinks[key]) { el.setAttribute("href", projectLinks[key]); } });
 
 const navToggle = document.querySelector(".nav__toggle");
 const navLinks = document.querySelector(".nav__links");
